@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lee Mingwei | Home</title>
+        <title>Lee Mingwei</title>
         
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-2mX2PSpkRSXLQzmNzH3gwK6srb06+OfbDlYjbog8LQuALYJjuQ3+Yzy2JIWNV9rW" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
@@ -41,21 +41,21 @@ $(document).ready(function(){
     
         <style>
             body, html, .main {
-                height: 1000px;
+                height: 450px;
                 }
 
-            section {
-                min-height: 1000px;
+            section, {
+                min-height: 450px;
                 }
         </style>
     
     </head>
     
-    <body>
-    <nav class="navbar navbar-default">
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -66,25 +66,46 @@ $(document).ready(function(){
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="#">Art</a></li>
-            <li><a href="about.html">About Lee</a></li>
+            <li><a href="#section2">About Lee</a></li>
+            <li><a href="#section3">Art</a></li>
             <li><a href="#">C.V.</a></li>
             <li><a href="#">Articles</a></li>
             <li><a href="#">News</a></li>
-            <li><a href="#">Links</a></li>  
+            <li><a href="#">Links</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         </div>
     </div>
     </nav>
             <div id="home">
-                <a href="#section2"><h1 style="margin-top: 200px; color: white;">Lee Mingwei</h1></a>
-            <div class="main">
-                <section></section>
+            <div class="main" id="section1">
+                <section>
+                    <a href="#section2"><img src="images/logo.png" style="margin-top: 300px;"></a>
+                </section>
             </div>
             <div class="main" id="section2">
-                <section>
-                    <a href="about.html"><h2 style="color: white;">Biography</h2></a>
-                    <img src="images/lee2.jpg">
+                <section style="margin-top: 450px;">
+                    <div class='container'>
+                    <div class='row'>
+                    <div class='col-md-6'>
+                        <img src="images/lee.jpg" style="margin-top: 200px;">                     
+                    </div>
+                    <div class='col-md-5'>
+                        <h3 style="color: black; margin-top: 100px;"><strong>Lee Mingwei:</strong></h3>
+                        <p style="color: black; font-size: 15px;">Born in Taiwan in 1964 and currently living in New York City and Paris, Lee Mingwei creates participatory installations, where strangers can explore issues of trust, intimacy, and self-awareness, and one-on-one events, where visitors contemplate these issues with the artist through eating, sleeping, walking and conversation. Lee's projects are often open-ended scenarios for everyday interaction, and take on different forms with the involvement of participants and change during the course of an exhibition.</p>
+
+
+                            <p style="color: black; font-size: 15px;">Lee received an MFA from Yale University in 1997, and has held solo exhibitions internationally including The Metropolitan Museum of Art, Museum of Modern Art, Whitney Museum of American Art, Museum of Fine Arts Boston, Los Angeles County Museum of Art, Taipei Fine Arts Museum, Queensland Gallery of Modern Art, Mori Art Museum, Ullens Center for Contemporary Art and has been featured in biennals in Venice, Lyon, Liverpool, Taipei, Sydney, Whitney, and Asia Pacific Triennials.</p>
+
+
+                            <p style="color: black; font-size: 15px;">Lee's mid-career survey exhibition "Lee Mingwei and His Relations" was recently on view at Mori Art Museum, Tokyo and Taipei Fine Arts Museum, and will travel to Auckland Art Gallery in 2016. His project "Sonic Blossom" was recently presented at the Museum of Fine Arts, Boston and The Metropolitan Museum of Art.</p>
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </div>
+            <div class="main" id="section3">
+                <section style="margin-top: 450px;">
                     
                 </section>
             </div>
