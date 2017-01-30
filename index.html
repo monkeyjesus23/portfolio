@@ -10,8 +10,14 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        
+        
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all buttons
@@ -41,11 +47,11 @@ $(document).ready(function(){
     
         <style>
             body, html, .main {
-                height: 500px;
+                height: 450px;
                 }
 
             section, {
-                min-height: 500px;
+                min-height: 450px;
                 }
         </style>
     
@@ -61,7 +67,7 @@ $(document).ready(function(){
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="width: 135px; height: auto; margin-top: -10px;"></a>
+            <a class="navbar-brand" href="#top"><img src="images/logo.png" style="width: 135px; height: auto; margin-top: -10px;"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -72,19 +78,40 @@ $(document).ready(function(){
             <li><a href="#">Articles</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Links</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#section4">Contact</a></li>
         </ul>
         </div>
     </div>
     </nav>
-            <div id="home">
+            <div class="parallax" id="top"></div>
             <div class="main" id="section1">
-                <section>
-                    <a href="#section2"><img src="images/logo.png" style="margin-top: 300px;"></a>
+                <section style="padding-top: 50px;">
+                    <a href="#section2"><img src="images/logo.png"></a>
+                    <div class="wrapper">
+            <a class="tech-quotes" target="_blank" href="https://www.nytimes.com/2015/11/02/arts/music/in-lee-mingweis-sonic-blossom-at-the-met-schubert-is-intimate-installation-art.html">
+                <img src="images/nyt.png">
+            </a>
+
+            <a class="tech-quotes" target="_blank" href="https://www.bostonglobe.com/arts/2015/03/15/lee-mingwei-offers-gift-song-mfa/hOdSXj07GD5wMoPjgDrkCK/story.html">
+                <img src="images/">
+            </a>
+
+            <a class="tech-quotes" target="_blank" href="http://www.cultofmac.com/452242/atlas-recall-muscle-ultimate-search-engine/">
+                <img src="/img/logos/cultofmac-logo.png" class="tech-image cultofmac" title="What They're Saying" alt="Cult of Mac logo">
+            </a>
+
+            <a class="tech-quotes" target="_blank" href="https://www.fastcodesign.com/3065200/this-new-app-saves-everything-youve-ever-looked-at-on-your-computer">
+                <img src="/img/logos/fastco-logo.png" class="tech-image fastco" title="What They're Saying" alt="Fast Company logo">
+            </a>
+
+            <a class="tech-quotes" target="_blank" href="http://money.cnn.com/2016/11/02/technology/atlas-recall-productivity-memory/">
+                <img src="/img/logos/cnn-logo.png" class="tech-image cnn" title="What They're Saying" alt="CNN logo">
+            </a>
+        </div>
                 </section>
             </div>
             <div class="main" id="section2">
-                <section style="margin-top: 450px;">
+                <section style="margin-top: 450px; background-color: #077187; height: 1500px;">
                     <div class='container'>
                     <div class='row'>
                     <div class='col-md-6'>
@@ -107,11 +134,148 @@ $(document).ready(function(){
                 </section>
             </div>
             <div class="main" id="section3">
-                <section style="margin-top: 450px;">
+                <section style="margin-top: 1000px; background-color: #009B98; height: 900px;">
+                    </br>
+                    </br>
+                    </br>
+                    <div class="container">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                        <li data-target="#myCarousel" data-slide-to="9"></li>
+                        <li data-target="#myCarousel" data-slide-to="10"></li>
+                        <li data-target="#myCarousel" data-slide-to="11"></li>
+                    </ol>
+                    
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner"><!-- role="listbox">-->
+    
+                        
+                        
+
+                        <div class="item active">
+                            <h3>Our Labyrinth</h3>
+                            <img id="resize" src="images/project1.jpg" style="border-radius: 5px;">
+                        </div>
+
+                        <div class="item">
+                            <h3>Luminous Depths</h3>
+                            <img id="resize" src="images/project2.jpg" style=" border-radius: 5px;">
+                        </div>
+
+                        <div class="item">
+                            <h3>The Moving Garden</h3>
+                            <img id="resize" src="images/project3.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>The Mending Project</h3>
+                            <img id="resize" src="images/project4.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>Guernica in Sand</h3>
+                            <img id="resize" src="images/project5.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>Money for Art</h3>
+                            <img id="resize" src="images/project6.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>The Sleeping Project</h3>
+                            <img id="resize" src="images/project7.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>The Quartet Project</h3>
+                            <img id="resize" src="images/project8.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>Sonic Blossom</h3>
+                            <img id="resize" src="images/project9.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>The Shadow and its Double</h3>
+                            <img id="resize" src="images/project10.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>The Shrine Project</h3>
+                            <img id="resize" src="images/project11.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        <div class="item">
+                            <h3>Reflections</h3>
+                            <img id="resize" src="images/project12.jpg" style=" border-radius: 5px;">
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="opacity: 0">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="opacity: 0">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>-->
+                </div>   
+                </div> 
+                </section>
+            </div>
+            
+        <div class="main" id="section4">
+                <section style="margin-top: 450px; background-color: #13C6C6; height: 700px">
+                    <h1 style="text-align: center; color: navy; padding: 50px;">If You Have Questions, or Want to Learn More, Contact Lee Mingwei:</h1>
+    <p style="color: black; text-align: center;"><a href="mailto:leemingwei@aya.yale.edu" target="_top" style="color: white;">leemingwei@aya.yale.edu</a>  |  <a href="mailto:studio@leemingwei.com" target="_top" style="color: white;">studio@leemingwei.com</a></p>
+                    
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name" style="color: white;">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email" style="color: white;">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message" style="color: white;">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input type="submit" value="Submit">
+                    </form>
                     
                 </section>
             </div>
-        </div>    
+        <div id="footer">
+                <footer style="margin-top: 220px;">
+                    <div class="row">
+                    <div class="col-md-4">
+                        <h4 style="color: white;">Copyright &copy; Lee Mingwei</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/logo.png" style="margin-top: 5px; width: 135px; height: auto;">
+                    </div>
+                    <div class="col-md-4">
+                        <h4 style="color: white;">Call a Number</h4>
+                    </div>
+            </div>
+        </footer>
+    </div>
+
     </body>
 
 </html>
